@@ -13,5 +13,12 @@
 
   .search {
     padding-bottom: 25px;
+    
+    input {
+      width: 360px;
+      padding: 5px;
+      border-radius: 10px;
+      border: 1px solid #BBB;
+    }
   }
 }
