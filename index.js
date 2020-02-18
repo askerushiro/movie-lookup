@@ -14,8 +14,8 @@ app.get('/api/lookup', (req, res) => {
             console.log(`Sent response for query on ${req.query.title}`)
         })
         .catch(err => {
-            res.send({error: tmdbRes.data.status_message})
             console.log(err)
+            res.send({error: err.data.status_message})
         })
 })
 
