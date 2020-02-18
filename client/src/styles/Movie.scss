@@ -1,0 +1,32 @@
+.movie {
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid #DDD;
+    padding: 15px;
+    width: 600px;
+
+    .poster {
+        padding-right: 25px;
+    }
+
+    .data {
+        .title {
+            font-size: 40px;
+            font-weight: 200;
+            margin: 0 0 6px;
+        }
+        .meta {
+            list-style-type: none;
+            margin: 0 0 6px;
+            padding: 0;
+            font-size: 12px;
+            color: #777;
+        }
+        .description > p {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+    }
+
+}

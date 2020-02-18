@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+  h1 {
+    font-size: 64px;
+    font-weight: 100;
+  }
+
+  .search {
+    padding-bottom: 25px;
+  }
+}
