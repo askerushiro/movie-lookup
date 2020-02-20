@@ -5,12 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "cd client && npm i && npm run build"
+    "heroku-postbuild": "cd client && npm i && npm run build",
+    "test": "TMDB_API_KEY=test_key mocha"
   },
   "author": "Christopher Reed-Asakawa",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "moxios": "^0.4.0",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
   }
 }
